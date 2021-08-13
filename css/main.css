@@ -166,6 +166,11 @@ a {
   text-decoration: none;
 }
 
+small {
+  font-weight: 200;
+  font-size: 12px;
+}
+
 header {
   position: fixed;
   z-index: 2;
@@ -212,6 +217,9 @@ main#home h1 {
 .about-info .bio {
   grid-area: bio;
   font-size: 1.5rem;
+}
+.about-info .bio p {
+  text-align: justify;
 }
 .about-info .job-1 {
   grid-area: job1;
